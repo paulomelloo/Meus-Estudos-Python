@@ -4,11 +4,10 @@ a função deve retornar apenas os números pares da lista
 """
 
 def numPar(numeros):
-    validador = []
-
-    for x in numeros:
-        if x % 2 == 0:
-            validador.append(x)
+    validador = [x for x in numeros if x % 2 == 0]
+    #for x in numeros:
+    #    if x % 2 == 0:
+    #        validador.append(x)
     return validador
 
 lista = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
