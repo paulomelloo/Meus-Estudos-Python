@@ -9,4 +9,4 @@ print(frase2.replace("testar", "trocar")) # ira substituir a palavra testar por 
 # vai retornar: trocar o replace em 2 palavras, trocar. trocar ira sumir
 
 print(frase2.replace("testar", "alterar", 2)) # o numero 2, limita o numero de troca que o replace faz. Nesse caso ele so vai alterar a palavra 'testar' por 'alterar' 2x.
-#
+#vai retornar: alterar o replace em 2 palavras, alterar. testar ira sumir
